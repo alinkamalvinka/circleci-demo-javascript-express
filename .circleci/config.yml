@@ -6,7 +6,7 @@ defaults: &defaults
 
 jobs:
   fail_purpose:
-      <<: *defaults
+    <<: *defaults
     steps:
       - run: return 1
       - run:
