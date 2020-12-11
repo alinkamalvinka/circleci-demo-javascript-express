@@ -6,7 +6,6 @@ defaults: &defaults
 
 jobs:
   fail_purpose:
-    docker:
       <<: *defaults
     steps:
       - run: return 1
